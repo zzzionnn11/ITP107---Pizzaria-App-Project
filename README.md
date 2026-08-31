@@ -1,17 +1,35 @@
-# midterm_project
+A Flutter-based mobile application for a Pizzeria brand featuring user authentication, form validation, gesture handling, and custom theming. Developed as a midterm project for ITP107 - Mobile Application Development.
 
-A new Flutter project.
+📱 Overview
+Pizzeria App is a complete Flutter application demonstrating core mobile development concepts including Stateful/Stateless widgets, gesture handling (tap, double-tap, long press), form validation with 6+ input fields, custom theming with brand colors, and responsive layouts using MediaQuery.
 
-## Getting Started
+The app provides a seamless user journey from the welcome screen through account creation and login, all wrapped in a visually appealing pizzeria-themed interface.
 
-This project is a starting point for a Flutter application.
+✨ Key Features
+🍕 Animated Welcome Screen - Spinning pizza with gesture controls
 
-A few resources to get you started if this is your first Flutter project:
+🔐 User Authentication - Login and Create Account functionality
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+✅ Form Validation - Real-time validation with 6+ input fields
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✋ Gesture Interactions - Tap, double-tap, and long press gestures
+
+🎨 Custom Theming - Branded orange color scheme
+
+📱 Responsive Design - Adapts to different screen sizes
+
+🔄 State Management - Using setState for UI updates
+
+🎯 Learning Objectives Demonstrated
+Objective & Implementation
+Stateless vs Stateful Widgets	- WelcomeView (Stateless), LoginView (Stateful), RootScreen (Stateful)
+8+ Basic Widgets	            - Container, Text, Row/Column, Image, Card, Icon, ListView, Stack, Form
+3+ Gestures	Tap                 - (pizza toggle), Double-Tap (logo shake), Long Press (forgot password)
+Form with 5+ TextFormFields	    - 6 fields with validation (Email, Name, Birthdate, Password, etc.)
+Custom Theming	                - Orange primary color (#FF6B4A), custom fonts
+Responsive Layout	            - MediaQuery-based adaptive spacing and padding
+
+🛠️ Tech Stack
+Framework: Flutter SDK ^3.12.2
+
+Language: Dart
